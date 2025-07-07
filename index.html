@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIBELIA</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./src/imagens/LOGOTIPO_RIBELIA-fundo_rosa.png" alt="logo RIBELIA">
+
+    </header >
+    <main class="container">
+        <h1 class="titulo-produtos">PRODUTOS</h1>
+        <div class="filtros">
+            <div class="categorias_produtos">
+                <label for="categoria">categoria</label>
+                <select id="categoria" class="categoria">
+                    <option value="">Selecione uma categoria: </option>
+                    <option value="Vestido">Vestido</option>
+                    <option value="Blusa">Blusa</option>
+                    <option value="Saia">Saia</option>
+                </select>
+            </div>
+            <div class="preco-produtos">
+                <label for="preco">preço máximo</label>
+                <input type="text" id="preco" class="preco" placeholder="Ex: 100">
+            </div>
+            <button class="btn-filtrar">Aplicar filtros</button>
+        </div>
+        <ul class="produtos">
+            <li class="produto" data-categoria="Blusa" data-preco="50">
+                <img src="./src/imagens/blusa_azul.jpg" alt="Blusa azul">
+                <div class="informacoes">
+                    <h2 class="nome-produto">Blusa jeans azul</h2>
+                        <span class="categoria">Categoria: Blusa</span>
+                        <span class="preco">R$50,00</span>
+                        <button class="btn-comprar">Comprar</button>
+                    
+                </div>
+            </li>
+            <li class="produto" data-categoria="Blusa" data-preco="49">
+                <img src="./src/imagens/blusa_rosa.jpg" alt="Blusa rosa">
+                <div class="informacoes">
+                    <h2 class="nome-produto">Blusa simples rosa</h2>
+                        <span class="categoria">Categoria: Blusa</span>
+                        <span class="preco">R$49,00</span>
+                        <button class="btn-comprar">Comprar</button>
+                    
+                </div>
+            </li>
+            <li class="produto" data-categoria="Blusa" data-preco="65">
+                <img src="./src/imagens/blusa_verde.jpg" alt="Blusa verde">
+                <div class="informacoes">
+                    <h2 class="nome-produto">Blusa social verde</h2>
+                        <span class="categoria">Categoria: Blusa</span>
+                        <span class="preco">R$65,00</span>
+                        <button class="btn-comprar">Comprar</button>
+                    
+                </div>
+            </li>
+            <li class="produto" data-categoria="Vestido" data-preco="80">
+                <img src="./src/imagens/vestido_branco.jpg" alt=" Vestido branco">
+                <div class="informacoes">
+                    <h2 class="nome-produto">Vestido longo branco</h2>
+                        <span class="categoria">Categoria: Vestido</span>
+                        <span class="preco">R$80,00</span>
+                        <button class="btn-comprar">Comprar</button>
+                    
+                </div>
+            </li>
+            <li class="produto" data-categoria="Vestido" data-preco="75">
+                <img src="./src/imagens/vestido_rosa.jpg" alt="Vestido rosa">
+                <div class="informacoes">
+                    <h2 class="nome-produto">Vestido médio rosa</h2>
+                        <span class="categoria">Categoria: Vestido</span>
+                        <span class="preco">R$75,00</span>
+                        <button class="btn-comprar">Comprar</button>
+                    
+                </div>
+            </li>
+            <li class="produto" data-categoria="Vestido" data-preco="78">
+                <img src="./src/imagens/vestido_verde.jpg" alt="Vestido verde">
+                <div class="informacoes">
+                    <h2 class="nome-produto">Vestido longo verde</h2>
+                        <span class="categoria">Categoria: Vestido</span>
+                        <span class="preco">R$78,00</span>
+                        <button class="btn-comprar">Comprar</button>
+                    
+                </div>
+            </li>
+            <li class="produto" data-categoria="Saia" data-preco="65">
+                <img src="./src/imagens/saia_azul.jpg" alt="Saia azul">
+                <div class="informacoes">
+                    <h2 class="nome-produto">saia longa azul</h2>
+                        <span class="categoria">Categoria: Saia</span>
+                        <span class="preco">R$65,00</span>
+                        <button class="btn-comprar">Comprar</button>
+                    
+                </div>
+            </li>
+            <li class="produto" data-categoria="Saia" data-preco="90">
+                <img src="./src/imagens/saia_bege.jpg" alt="Saia bege">
+                <div class="informacoes">
+                    <h2 class="nome-produto">Saia longa bege</h2>
+                        <span class="categoria">Categoria: Saia</span>
+                        <span class="preco">R$90,00</span>
+                        <button class="btn-comprar">Comprar</button>
+                    
+                </div>
+            </li>
+            <li class="produto" data-categoria="Saia" data-preco="120">
+                <img src="./src/imagens/saia_xadrez.jpg" alt="Saia xadrez">
+                <div class="informacoes">
+                    <h2 class="nome-produto">Saia curta xadrez rosa</h2>
+                        <span class="categoria">Categoria: Saia</span>
+                        <span class="preco">R$120,00</span>
+                        <button class="btn-comprar">Comprar</button>
+                    
+                </div>
+            </li>
+        </ul>
+    </main>
+    <footer class="rodape">@2025 - Todos os direitos reservados</footer>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
