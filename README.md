@@ -17,3 +17,26 @@ Este projeto é um catálogo de produtos com sistema de filtro por **categoria**
 - CSS3
 - JavaScript (DOM e eventos)
 - Git e GitHub (versionamento e portfólio)
+
+## 🚀 Como acessar
+
+O projeto pode ser visualizado através do GitHub Pages:
+
+🔗 [https://gabrielacaluz.github.io/**projeto-Gabriela-Caluz**](https://gabrielacaluz.github.io/projeto-RIBELIA/)
+
+---
+
+## 📫 Contato
+
+Você pode falar comigo pelos links abaixo:
+
+- 💌 Email: [gabrielacaluz56@gmail.com](mailto:gabrielacaluz56@gmail.com)
+- 💼 LinkedIn: [linkedin.com/in/gabriela-botini](https://www.linkedin.com/in/gabriela-botini/)
+- 🐙 GitHub: [github.com/gabrielacaluz](https://github.com/gabrielacaluz)
+- 📸 Instagram Dev: [@dev.gabriela_caluz](https://www.instagram.com/dev.gabriela_caluz/)
+
+---
+
+## ✨ Créditos
+
+Desenvolvido com 💜 por **Gabriela Caluz**, como parte da minha evolução no plano de estudos de desenvolvimento web front-end.
